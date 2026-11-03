@@ -1,0 +1,48 @@
+{
+  "vision_provider_id": {
+    "type": "string",
+    "description": "视觉提供商 ID（用于识图的模型）",
+    "hint": "填写 AstrBot 后台已配置的提供商 ID（如 zhipu、openai 等），插件将据此获取对应的 API Key 与 URL，避免误用纯文本模型。",
+    "default": ""
+  },
+  "normal_fps": {
+    "type": "int",
+    "description": "普通模式抽帧率",
+    "hint": "普通看图/动图的抽帧率，建议 1-3。",
+    "default": 2
+  },
+  "deep_fps": {
+    "type": "int",
+    "description": "性能模式抽帧率",
+    "hint": "触发高级指令时使用的暴力抽帧率，建议 5-10。",
+    "default": 5
+  },
+  "high_mode_command": {
+    "type": "string",
+    "description": "高级性能模式触发指令",
+    "hint": "填入触发高级性能模式的专属指令，消息包含该词即使用 deep_fps 抽帧。",
+    "default": "#深度解析"
+  },
+  "video_scale_width": {
+    "type": "int",
+    "description": "视频长图缩放宽度（像素）",
+    "hint": "视频抽帧长图的缩放宽度，高度自动等比例缩放。建议：360（省流）、480（均衡）、720（高清）。",
+    "default": 480
+  },
+  "video_process_mode": {
+    "type": "string",
+    "description": "视频处理通道",
+    "hint": "请根据需要选择视频处理方式。",
+    "options": [
+      "auto",
+      "local",
+      "cloud"
+    ],
+    "subtitles": [
+      "自动模式：能直传就直传，不支持就本地抽帧",
+      "强制本地：无视模型能力，全部用 ffmpeg 抽帧拼长图",
+      "强制云端：无视模型能力，直接传原视频"
+    ],
+    "default": "auto"
+  }
+}
