@@ -3,9 +3,9 @@
 > 
 > 由于 AstrBot Cloud 平台近期服务器网关波动（Cloudflare 520 报错），暂无法一键上架安装。请大家手动装一下（二选一）：
 > 
-> **方式 1（命令拉取）：** 在服务器执行 `cd data/plugins && git clone https://github.com/mingdelaoda/astrbot_plugin_ming_eyes.git`
+> **方式 1（推荐，命令拉取）：** 在服务器执行 `cd data/plugins && git clone https://github.com/mingdelaoda/astrbot_plugin_ming_eyes.git`
 > 
-> **方式 2（压缩包）：** 下载本页 `ZIP` 源码包，解压后将整个文件夹拖入 AstrBot 的 `data/plugins` 目录下。
+> **方式 2（网页下载）：** 点击本页面右上角绿色的 `Code` 按钮，选择 `Download ZIP`，解压后将整个文件夹放入 AstrBot 的 `data/plugins` 目录下。
 > 
 > 放入后重启 AstrBot 即可生效。*（注：平台恢复上架后，此提示会撤掉。谢谢大家的支持！）*
 
