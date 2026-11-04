@@ -1,19 +1,13 @@
 > [!WARNING]
 > **📢 暂未上架 AstrBot Cloud 的临时安装说明**
 > 
-> 由于 AstrBot Cloud 平台近期服务器网关波动（Cloudflare 520 报错），插件暂无法一键上架安装。
-> 需要使用的朋友，请直接手动安装（二选一）：
+> 由于 AstrBot Cloud 平台近期服务器网关波动（Cloudflare 520 报错），暂无法一键上架安装。请大家手动装一下（二选一）：
 > 
-> **方法一：Git 命令直接拉取（推荐）**
-> ```bash
-> cd data/plugins && git clone https://github.com/mingdelaoda/astrbot_plugin_ming_eyes.git
+> **方式 1（命令拉取）：** 在服务器执行 `cd data/plugins && git clone https://github.com/mingdelaoda/astrbot_plugin_ming_eyes.git`
 > 
-方法二：下载 ZIP 压缩包
-
-1. 直接下载本页的 ZIP 源码包。
-2. 解压后，将整个文件夹放入 AstrBot 的 data/plugins 目录下。
-
-放入后重启 AstrBot 即可生效。（注：平台恢复上架后，此提示会撤掉。谢谢大家的支持！）
+> **方式 2（压缩包）：** 下载本页 `ZIP` 源码包，解压后将整个文件夹拖入 AstrBot 的 `data/plugins` 目录下。
+> 
+> 放入后重启 AstrBot 即可生效。*（注：平台恢复上架后，此提示会撤掉。谢谢大家的支持！）*
 
 # 🐟 AstrBot 视觉插件：ming_eyes (溟之眼)
 
